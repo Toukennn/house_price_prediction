@@ -59,8 +59,8 @@ house-price-predictor/
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/<Toukennn>/<house_price_prediction>.git
-cd <house_price_prediction>
+git clone https://github.com/Toukennn/house_price_prediction.git
+cd house_price_prediction
 ```
 2️⃣ Create a virtual environment
 ```bash
