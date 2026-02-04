@@ -45,7 +45,7 @@ house-price-predictor/
 
 ## ▶️ How to Run Locally
 
-1️⃣ Install dependencies:
+1️⃣ Install dependencies and get the local app:
 ```bash
 pip install -r requirements.txt
 streamlit run app/house_prediction.py
