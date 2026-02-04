@@ -41,3 +41,11 @@ house-price-predictor/
 ├─ requirements.txt
 ├─ .gitignore
 └─ LICENSE
+
+## ▶️ How to Run Locally
+
+1️⃣ Install dependencies:
+```bash
+pip install -r requirements.txt
+streamlit run app/house_prediction.py
+
