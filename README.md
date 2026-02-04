@@ -25,6 +25,16 @@ The app allows users to input location and housing statistics and receive a real
   - Population per household
 - **Input validation:** Real-world California latitude/longitude bounds are enforced to prevent invalid predictions
 
+📊 Model Training
+Model development and experimentation are documented in:
+  **notebooks/house_price_predict.ipynb**
+The notebook covers: 
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Model training
+- Evaluation
+- Model persistence
+
 ---
 
 ## 📂 Project Structure
@@ -43,10 +53,23 @@ house-price-predictor/
 └─ LICENSE
 ```
 
-## ▶️ How to Run Locally
+## ▶️ Installation and Usage
 
-1️⃣ Install dependencies and get the local app:
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/<Toukennn>/<house_price_prediction>.git
+cd <house_price_prediction>
+```
+2️⃣ Create a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-streamlit run app/house_prediction.py
+```
+4️⃣ Run the Streamlit app
+```bash
+streamlit run house_prediction.py
 ```
