@@ -49,15 +49,16 @@ The notebook covers:
 ---
 
 ## 📂 Project Structure
+
 ```text
-house-price-predictor/
-├─ app/
-│  ├─ app.py                  # Streamlit application
-│  └─ hgb_final.joblib        # Trained model
-├─ notebooks/
+house_price_prediction/
+├─ house_price_prediction/
+│  ├─ house_prediction.py      # Streamlit application
+│  ├─ hgb_final.joblib         # Trained ML model
+│  ├─ housing.csv              # Dataset
 │  └─ house_price_predict.ipynb
-├─ data/
-│  └─ housing.csv
+├─ assets/
+│  └─ demo.png                 # App screenshot
 ├─ README.md
 ├─ requirements.txt
 ├─ .gitignore
