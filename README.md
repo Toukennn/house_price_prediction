@@ -5,6 +5,15 @@ The project includes a **trained ML model**, an **interactive Streamlit web app*
 
 ---
 
+## 🚀 Demo
+
+### Streamlit App (Screenshot)
+![Streamlit app screenshot](assets/demo.png)
+
+> The app predicts **median house value** from user-provided geographic and housing features using a tuned **HistGradientBoostingRegressor** pipeline.
+
+---
+
 ## 📌 Project Overview
 This project is based on the California Housing dataset and demonstrates an **end-to-end ML workflow**:
 - Data preprocessing & feature engineering
