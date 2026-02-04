@@ -5,12 +5,6 @@ The project includes a **trained ML model**, an **interactive Streamlit web app*
 
 ---
 
-## 🚀 Demo
-> *(Optional but highly recommended)*  
-Add a screenshot or GIF of the Streamlit app here once deployed.
-
----
-
 ## 📌 Project Overview
 This project is based on the California Housing dataset and demonstrates an **end-to-end ML workflow**:
 - Data preprocessing & feature engineering
