@@ -41,6 +41,7 @@ house-price-predictor/
 ├─ requirements.txt
 ├─ .gitignore
 └─ LICENSE
+```
 
 ## ▶️ How to Run Locally
 
@@ -48,4 +49,4 @@ house-price-predictor/
 ```bash
 pip install -r requirements.txt
 streamlit run app/house_prediction.py
-
+```
