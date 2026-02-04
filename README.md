@@ -25,7 +25,7 @@ The app allows users to input location and housing statistics and receive a real
   - Population per household
 - **Input validation:** Real-world California latitude/longitude bounds are enforced to prevent invalid predictions
 
-📊 Model Training
+## 📊 Model Training
 Model development and experimentation are documented in:
   **notebooks/house_price_predict.ipynb**
 The notebook covers: 
